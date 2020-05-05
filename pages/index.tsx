@@ -8,6 +8,9 @@ const IndexPage = () => (
       <Link href='/about'>
         <a>About</a>
       </Link>
+      <Link href='/amp-story'>
+        <a>amp story</a>
+      </Link>
       <button onClick={() => alert('hello')}>hello</button>
     </p>
   </Layout>

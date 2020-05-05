@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "alwaysStrict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
@@ -15,9 +14,18 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
     "target": "esnext",
-    "typeRoots": ["@types", "node_modules/@types", "next-env.d.ts"]
+    "typeRoots": ["@types", "node_modules/@types", "next-env.d.ts"],
+
+    // stricts area
+    "strict": true
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+    // "strictBindCallApply": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true
   },
   "exclude": ["node_modules"],
   "include": [
