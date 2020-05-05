@@ -18,11 +18,11 @@ export default () => (
         custom-element='amp-video'
         src='https://cdn.ampproject.org/v0/amp-video-0.1.js'
       />
-      <script
+      {/* <script
         async
         custom-element='amp-video-docking'
         src='https://cdn.ampproject.org/v0/amp-video-docking-0.1.js'
-      ></script>
+      ></script> */}
     </Head>
 
     <amp-story
@@ -47,7 +47,7 @@ export default () => (
           <amp-youtube
             id='tube'
             data-videoid='2V4mnLEruKA'
-            amp-video-doc
+            doc
             // layout='responsive'
             // layout='nodisplay'
             width='480'
