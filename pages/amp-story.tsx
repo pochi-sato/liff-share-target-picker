@@ -38,7 +38,7 @@ export default () => (
             height='1280'
             layout='responsive'
           /> */}
-          <div id='warning-message'>Warning...</div>
+          {/* <div id='warning-message'>Warning...</div> */}
           <amp-youtube
             id='tube'
             data-videoid='2V4mnLEruKA'
