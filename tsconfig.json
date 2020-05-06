@@ -15,7 +15,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "esnext",
-    "typeRoots": ["@types", "node_modules/@types", "next-env.d.ts"],
+    "typeRoots": ["src/@types", "node_modules/@types", "next-env.d.ts"],
 
     // stricts area
     "strict": true
@@ -28,10 +28,5 @@
     // "strictPropertyInitialization": true
   },
   "exclude": ["node_modules"],
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "pages/logics/paymentRequestApi.js",
-    "pages/indexjtsx"
-  ]
+  "include": ["**/*.ts", "**/*.tsx"]
 }
